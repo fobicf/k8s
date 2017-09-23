@@ -14,7 +14,6 @@ images=(
 )
 
 for imageName in ${images[@]} ; do
-    docker pull gcr.io/google_containers/$imageName
-    docker tag gcr.io/google_containers/$imageName registry.cn-beijing.aliyuncs.com/bbt_k8s/$imageName
-    docker push registry.cn-beijing.aliyuncs.com/bbt_k8s/$imageName
+    docker pull docker.io/fobicf/$imageName
+    docker tag docker.io/fobicf/$imageName gcr.io/google_containers/$imageName
 done
