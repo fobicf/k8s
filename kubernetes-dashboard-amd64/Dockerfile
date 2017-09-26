@@ -1,2 +1,2 @@
-FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.3
+FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.0
 MAINTAINER fobicf <fobicf@126.com>
